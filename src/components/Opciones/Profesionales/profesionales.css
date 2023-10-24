@@ -1,0 +1,102 @@
+/* Profesionales.css */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&family=Raleway:wght@100&display=swap');
+
+
+.profesionales-container {
+  position: relative;
+  height: 430px;
+  background-image: url('../../../assets/fondoProfesionales.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 165, 178, 0.60); /* Cambia aquí la transparencia (0.5 en este caso) */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté en la parte superior */
+}
+
+.profesionales-container h2 {
+  
+  margin-bottom: 10px;
+}
+
+.profesionales-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.descripcion {
+    justify-content: center;
+    color: #fff;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 60px;
+}
+
+.profesionales-container button {
+width: 708px;
+height: 64px;
+flex-shrink: 0;
+border: none;
+border-radius: 25px;
+background: #9F1880;
+transition: transform 0.1ms ease;
+}
+
+.profesionales-container button:hover{
+    cursor: pointer;
+    background: #287a9b;
+    
+}
+.btn-texto{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .profesionales-container {
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    
+    padding: 20px; /* Agrega un relleno para separar el contenido del borde */
+  }
+
+  .overlay {
+    background-color: rgba(5, 165, 178, 0.85); /* Ajusta la transparencia para dispositivos móviles */
+  }
+
+  .titulo {
+    font-size: 25px; /* Ajusta el tamaño de la fuente del título */
+  }
+
+  .profesionales-container button {
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    max-width: 300px; /* Ancho máximo para que no se estire demasiado en pantallas grandes */
+  }
+
+  .btn-texto {
+    font-size: 16px; /* Ajusta el tamaño de la fuente del texto del botón */
+  }
+}

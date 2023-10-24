@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@,100;1,500;1,400&display=swap');
+
+
+.container{
+  padding: 40px;
+}
+
+.layout {
+  width: auto;
+  height: auto;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.consultaVirtual h2 {
+    color: white;
+    background-color: #9F1880;
+    font-family: Poppins, sans-serif;
+    padding: 30px;
+    font-size: 20px;
+   
+}
+
+.consultaPresencial h2{
+  color: white;
+    background-color: #9F1880;
+    font-family: Poppins, sans-serif;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+
+.precio1{
+  color: white;
+    background-color: #9F1880;
+    font-family: Poppins, sans-serif;
+  }
+.title{
+    color: white;
+    background-color: #9F1880;
+    font-family: Poppins, sans-serif;
+    padding: 1px;
+    
+
+}
+
+.btn-sugeridos{
+
+  border: none; 
+  background: #05A5B2;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px;
+  transition: transform 1s;
+
+}
+
+.btn-sugeridos h2{
+  color: white;
+  margin: 18px;
+  font-size: 20px;
+}
+
+.btn-sugeridos:hover{
+  background-color: #9F1880;
+}
+
+
+
+@media (max-width: 767px) {
+  .consultaVirtual h2,
+  .consultaPresencial h2,
+  .precio1,
+  .title,
+  .btn-sugeridos h2 {
+    width: auto;
+    max-width: 100%;
+    padding: 15px; 
+    font-size: 15px; 
+  }
+
+  .layout {
+    display: flex;
+    flex-direction: column;
+    
+  }
+ .btn-sugeridos h2{
+  height: 20px;
+  width: 160px;
+  font-size: 13px;
+  padding-top: 0;
+ }
+
+  .title{
+    
+    font-size: 12px;
+  }
+}

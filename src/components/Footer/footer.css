@@ -1,0 +1,66 @@
+.layoutFooter {
+ padding-top: 15px;
+ height: auto;
+ margin: 0 auto;
+ display: flex;
+ gap: 16px;
+ justify-content: space-around;
+ align-items: flex-start;
+background: rgba(5, 165, 178, 0.88);
+
+}
+
+.social-media box-icon {
+  
+  fill: white; 
+  width: 30px; /* Cambia el ancho según sea necesario */
+  
+
+}
+
+.social-media{
+  padding-top: 45px;
+}
+
+
+
+.derechos{
+    padding-top: 40px;
+    color: white;
+    font-family: Poppins, sans-serif;
+  }
+
+  .copyright{
+    padding-top: 130px;
+    color: white;
+    font-family: Poppins, sans-serif;
+  }
+
+  .pCofomi{
+    color: white;
+  } 
+
+  @media (max-width: 767px) {
+  .layoutFooter {
+    height: auto; /* Altura automática */
+    padding: 20px; /* Ajusta el espacio interno */
+    display: flex;
+    flex-direction: column; /* Cambia a disposición de columna */
+    align-items: center; /* Centra los elementos */
+    gap: 10px; /* Espacio entre elementos */
+  }
+
+  .social-media {
+    text-align: center; /* Centra el contenido de redes sociales */
+  }
+
+  .copyright {
+    padding-top: 20px; /* Ajusta el espacio superior */
+    text-align: center; /* Centra el texto */
+  }
+
+  .pCofomi {
+    text-align: center; /* Centra el texto */
+  }
+}
+

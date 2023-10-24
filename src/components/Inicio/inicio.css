@@ -1,0 +1,93 @@
+.inicio-container {
+    position: relative;
+  }
+  
+  .background-image-container {
+    position: relative;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    opacity: 55%;
+    object-fit: cover;
+     /* Para asegurarte de que la imagen cubra todo el contenedor */
+  }
+
+  .overlay3{
+    background-color: #05A5B2;
+  }
+  
+  .inicio-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Para centrar el texto horizontalmente */
+    color: white; /* Cambia el color del texto si es necesario */
+    font-size: 36px; /* Ajusta el tamaño del texto según tus preferencias */
+  }
+  
+  /* Inicio.css */
+.inicio-container {
+  position: relative; /* Establece la posición relativa en el contenedor principal */
+}
+
+.background-image-container {
+  position: relative;
+}
+
+
+.background-image {
+  width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Ajusta la altura de la imagen según tus necesidades */
+  z-index: 1; /* Establece un valor de z-index menor para la imagen */
+}
+
+/* Asegúrate de que el menú tenga un z-index mayor para que aparezca por encima de la imagen */
+.header {
+  position: absolute; /* Establece la posición absoluta para el menú */
+  top: 0;
+  left: 0;
+  z-index: 2; /* Establece un valor de z-index mayor para el menú */
+}
+
+.inicio-title h2{
+    font-family: Raleway;
+    font-size: 26px;
+}
+
+.inicio-title h1{
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.inicio {
+  color: white;
+
+}
+
+
+
+@media (max-width: 844px) {
+  
+   
+
+  .inicio-title h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+  }
+
+  .inicio-title h2 {
+    font-size: 11px;
+  }
+
+  .background-image-container,
+  .background-image {
+    height: 400px;
+  }
+
+  
+ 
+}
