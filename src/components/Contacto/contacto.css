@@ -122,28 +122,32 @@ position: absolute;
 }
 
 .iconContacto {
+  display: flex;
   position: absolute;
   bottom: 20px;
-  right: 80px; /* Ajusta la posición vertical según tus necesidades */
+  right: 60px; /* Ajusta la posición vertical según tus necesidades */
   
 }
 
+
 .iconContacto box-icon{
  fill: #ffffff;
+ 
 }
 
 .pContacto {
   color: #ffffff;
+  bottom: 15px;
 }
 
 
 
 
 /* Estilos para dispositivos con un ancho máximo de 844px (móviles y tabletas) */
-@media (max-width: 844px) {
+@media (max-width: 767px) {
   .contact-container {
     width: auto;
-    height: 250px;
+    height: 600px;
     text-align: center; 
     background-color: #9F1880;
     text-align: center;
@@ -151,7 +155,7 @@ position: absolute;
     border-radius: 17px;
   }
 
-  .contact-image, .overlay2 {
+  .contact-image {
     display: none;
     width: auto; /* Oculta la imagen y el overlay en dispositivos más pequeños */
   }
@@ -171,16 +175,7 @@ position: absolute;
     
   }
 
-  .container-oficina {
-    width: auto;
-    height: 250px;
-    margin-left: 15px;
-    text-align: center; 
-    background-color: rgba(5, 165, 178);
-    text-align: center;
-    margin-right: 40px;
-    border-radius: 17px;
-  }
+ 
 
   .text-over-image {
     top: 20px;
@@ -188,17 +183,30 @@ position: absolute;
     font-size: 20px;
   }
 
-  .titulo-ofi, p {
-  margin: 0;
-  padding-bottom: 5;
-  color: white;
+  
+
+.iconContacto {
+  fill: white;
+  display: block;
+  font-size: 10px;
+  top: 260px;
+  left: 20px;
+ 
+   width: 250px;
+    height: 600px;
 }
 
-.iconContacto box-icon{
-  fill: white;
+.iconContacto p {
+  font-size: 14px;
 }
+
+
 
 .imgs .img-mapa{
   width: 20px;
 }
+
+
+
+
 }

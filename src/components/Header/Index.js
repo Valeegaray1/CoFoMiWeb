@@ -57,8 +57,10 @@ function Header() {
   };
 
   return (
+    
     <header className={`header2 ${menuOpen ? 'menu-open' : ''}`}>
       <div className="logo">Colegio de fonoaudiólogos Misiones</div>
+      
       
       <div className="other-items">
         <div onClick={() => smoothScrollTo('inicio')}>Inicio</div>

@@ -118,6 +118,11 @@ transform: 1.0;
 font-size: 18px;
 }
 
+.btn-LE p {
+
+  
+}
+
 .btn-LE:hover{
   color: #9F1880;
   cursor: pointer;

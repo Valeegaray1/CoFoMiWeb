@@ -1,129 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@,100;1,500;1,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@100,500,600,400&display=swap');
 
 
 
 .container {
-  display: block;
-  justify-content: center; 
-  align-items: center; 
   
+ margin: 20px;
+ margin-top: 0;
 }
 
 
 
-.fila2, p{
-  display: inline-block;
-  margin: auto;
-  justify-content: center;
-  padding-right: 20px;
+.subtitle{
+  text-align: center;
 }
 
-
-
-.fila11{
-  display: flex;
-  justify-content: center;
-}
-
-.fila11 h3{
-  margin-bottom: 0;
-  font-size: 22px;
-}
-
-.fila11 p {
-  padding-top: 8px;
-  font-size: 18px;
-}
-
-
-.fila22{
-  display: flex;
-  justify-content: center;
-}
-
-.fila22 h3{
- margin-bottom: 0;
- margin-right: 15px;
- font-size: 22px;
- padding-right: 22px;
-}
-
-.fila22 p{
-   padding-top: 8px;
-   padding-right: 30px;
-   margin-right: 33px;
-   font-size: 18px;
-}
-
-.fila33{
-  display: flex;
-  
-}
-
-.fila33-container{
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-
-.fila33-container h3{
-  margin-bottom: 0;
-   font-size: 22px;
-   padding-right: 22px;
-}
-
-.fila33-container p {
-  margin-top: 0; 
-  padding-top: 5px;
-  font-size: 18px;
-}
-
-
-
-.comisionTitle {
-  color: #9F1880;
-font-family: Poppins, sans-serif;
-font-size: 25px;
-padding-bottom: 15px;
-padding-top: 15px;
-}
-
-.nombre{
+.nombre {
   color: #9F1880;
   font-weight: 400;
-  font-family: Poppins;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-.pOrg{
+.fila1 p, .fila1 h3{
+  display: flex;
   justify-content: center;
+  padding-top: 0;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-@media (max-width: 767px) {
-  .container {
-    padding: 10px;
-    
-  }
 
-  .fila1,
-  .fila2,
-  .fila3,
-  .pOrg {
-    padding: 10px; 
-    color: #000; }
+.fila2 {
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ 
+}
 
-  .title-comisiones {
-    font-size: 15px;
-  }
-
-  .nombre {
-    font-size: 15px; 
-  }
+.fila2 p, .fila2 h3{
+  padding-top: 0;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 
+.fila3{
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.fila3 p, .fila3 h3{
+  padding-top: 0;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
 
 }
+
+.fila3 p, .fila2 p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

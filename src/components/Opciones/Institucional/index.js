@@ -36,8 +36,8 @@ const Institucional = () => {
       <p className='pOrg'>
 Bienvenidos al sitio oficial del Colegio de Fonoaudiólogos de la Provincia de Misiones, creado en el año 2003 por Ley N° 4003, con Personería Jurídica N° A-2685, para el ejercicio de la profesión. Nuestra institución desempeña un papel fundamental en el ejercicio de la fonoaudiología, fijándose como uno de sus objetivos elevar los estándares de la práctica profesional.
       </p>
-      <button className='btn-LE' onClick={handleLeyClick}>Ley de creación</button>
-      <button className='btn-LE' onClick={handleEstatutoClick}>Estatuto</button>
+      <button className='btn-LE' onClick={handleLeyClick}><strong>Ley de creación</strong></button>
+      <button className='btn-LE' onClick={handleEstatutoClick}><strong>Estatuto</strong></button>
 
      {/*<div className="image-container">
         <img src={imagen1} alt="Imagen 1" className="zoom-image" />

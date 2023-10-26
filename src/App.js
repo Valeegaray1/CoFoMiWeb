@@ -25,18 +25,13 @@ function App() {
         <Inicio />
         
         <Institucional id="institucional" />
-        {/*<Actividades id="actividades" />*/}
+      
         <Organizacion />
         <Profesionales />
-        
         <Aranceles />
         <Contacto />
-      
         <Footer />
-        <Switch>
-          <Route path="/institucional" component={Institucional} />
-          <Route path="/organizacion" component={Organizacion} />
-        </Switch>
+        
       </div>
     </Router>
   );
