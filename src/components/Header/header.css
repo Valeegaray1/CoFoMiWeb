@@ -1,130 +1,83 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@100&display=swap');
 
-body {
-  font-family: 'Raleway', sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
 }
 
-.header2 {
+
+.menuContainer {
+  max-width: 1350px;
+  margin: 0;
+  
+  
+}
+
+.back{
+  padding: 32px;
+  background-color: #05A5B2;
   position: fixed;
-  display: flex;
-  align-items: center;
-  padding: 10px 2%;
-  color: #fcfcfc;
-  font-size: 18px;
   z-index: 1000;
-  font-style: normal;
-  font-weight: 700;
-  width: 1530px;
-  background-color: rgb(5, 164, 178);
- 
+  width: 100%; 
+  height: 59px;   
 }
 
-.header2 .logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 35%;
-}
-
-.header2 .menu-item {
-  cursor: pointer;
-  position: relative;
-  margin-right: 15px;
-}
-
-.header2 .menu-options {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: rgb(5, 164, 178);
-  color: rgb(255, 255, 255);
-  display: none;
-  margin-left: 18px;
-}
-
-.header2 .menu-item:hover .menu-options {
-  display: block;
-}
-
-.header2 .menu-options li {
-  padding: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  
-}
-
-.tramites:hover{
-  color: #9F1880;
-}
-
-.header2 .menu-options li {
-  color: #ffffff;
-  font-size: 16px;
-}
-
-.header2.menu-open .menu-options {
-  display: block;
-}
-
-.header2 .other-items {
+.menuContainer{
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-right: 15px;
-}
-
-.header2 .other-items div {
-  cursor: pointer;
-  padding: 10px 20px;
-  margin-right: 15px;
-  
-}
-
-.header2 .menu-item {
-  margin-right: 10px; 
-}
-
-.subOpcion{
-  padding: 15px;
-}
-
-.subOpcion:hover{
-  cursor: pointer;
-  color: #9F1880;
-}
-
-
-@media (max-width: 768px) {
-  .header2 {
-    flex-direction: column;
-                
-                /* Align items to the begining (the left) of the header. */
-                align-items: flex-start;
-                font-size: 12px;            
-                padding: 0;
-    
-  }
-
-  .header2 .menu-item {
-    margin-left: 15px;
-  }
-
-  .header2 .other-items div {
-    
-    margin: 0; 
-    padding: 8px;
-    margin-left: 7px;
+  justify-content: space-between;
+  z-index: 1000;
    
-  }
-  .header2 .logo {
-    font-size: 15px;
-    margin-left: 10px;
-    padding-top: 5px;
-    padding-left: 25px;
-    
-  }
+}
 
+.logo {
+  font-size: 20px;
+  color: rgb(250, 250, 250);
+  font-weight: 900;
+  font-family: Raleway, sans-serif;
+  position:relative;
+  bottom: 10px;
+}
+
+
+
+
+.menuContainer .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menuContainer .navbar ul li {
+  font-size: 18px;
+  bottom: 10px;
+  color: #ffffff;
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+.menuContainer .navbar ul li:hover {
+  color: #9F1880;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
   
 }
+
+.menu-icono {
+  width: 25px;
+  display: none;
+}
+
+
+
+ .header .tramitesOptions{
+  color: #000000;
+}
+

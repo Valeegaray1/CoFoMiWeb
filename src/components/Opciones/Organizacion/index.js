@@ -42,7 +42,7 @@ const comisiones2 = [
 const comisiones3 = [
   {
     title3: 'Tribunal de ética',
-    descripcion3: 'Descripción del Tribunal de ética',
+    descripcion3: 'Garantizar el adecuado ejercicio de la profesión y mantener altos estándares éticos en la práctica de la fonoaudiología',
     titular3: [
       { nombre: 'Rosalba Tullberg', cargo: 'Titular' },
       { nombre: 'María del Carmen Junghanns', cargo: 'Titular' },
