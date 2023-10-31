@@ -37,7 +37,22 @@ const Contacto = () => {
          </div>
         </div>
       </div>
+      
+      <div className='contact-responsive'>
+        <a className='a-responsive'><strong>Contáctanos</strong></a>
+        <ul className='ul-responsive'>
+          <li className='li-responsive'>Pedro Mendez 2426, segundo piso</li>
+          <li  className='li-responsive'>administracion@cofomi.com.ar</li>
+          <li  className='li-responsive'>+54 9 3765385306</li>
+        </ul>
+        <button onClick={emailButtonHandler} className="email-button-responsive">
+            Enviar correo electrónico
+          </button>
 
+          <button onClick={wppButtonHandler} className="wpp-button-responsive">
+            Enviar whatsapp
+          </button>
+      </div>
       
     </div>
   );

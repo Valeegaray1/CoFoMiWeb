@@ -43,6 +43,7 @@
     background-color: #9F1880;
     font-family: Poppins, sans-serif;
     padding: 1px;
+    margin-bottom: 10px;
     
 
 }
@@ -91,8 +92,8 @@
     
   }
  .btn-sugeridos h2{
-  height: 20px;
-  width: 160px;
+  height: 30px;
+  width: 170px;
   font-size: 13px;
   padding-top: 0;
  }

@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Actividades from './components/Opciones/Actividades'; 
 import Organizacion from './components/Opciones/Organizacion'; 
 import Institucional from './components/Opciones/Institucional/index.js';
-import Header from './components/Header/Index';
 import Inicio from './components/Inicio/';
 import { animateScroll as scroll } from 'react-scroll';
 import Footer from './components/Footer';
 import Aranceles from './components/Opciones/Aranceles/aranceles';
 import Profesionales from './components/Opciones/Profesionales/profesionales';
 import Contacto from './components/Contacto';
+import Navbar from './components/Navbar/Navbar';
+
 
 import './App.css';
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Navbar />
         <Inicio />
         
         <Institucional id="institucional" />

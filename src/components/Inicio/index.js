@@ -15,7 +15,7 @@ function Inicio() {
         <h1>CO.FO.MI.</h1>
         <h2 className='inicio'>El rol del fonoaudiólogo cómo profesional de una disciplina de la salud es mejorar la comunicación de las personas, generando así una mejor calidad de vida.</h2>
 <div className="centered-image">
-          <img src={ImgLogo} />
+          <img src={ImgLogo} className='img-logo'/>
         </div>
       </div>
       </div>

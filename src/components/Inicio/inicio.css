@@ -16,6 +16,7 @@
 
   .overlay3{
     background-color: #05A5B2;
+  
   }
   
   .inicio-title {
@@ -66,10 +67,13 @@
   color: white;
 
 }
+.img-logo{
+  margin-top: 25px;
+}
 
 
 
-@media (max-width: 844px) {
+@media (max-width: 1024px) {
   
    
 
@@ -80,7 +84,7 @@
   }
 
   .inicio-title h2 {
-    font-size: 11px;
+    font-size: 15px;
   }
 
   .background-image-container,
@@ -88,6 +92,9 @@
     height: 400px;
   }
 
-  
+  .img-logo{
+    width: 70px;
+    margin-top: 20px;
+  }
  
 }
