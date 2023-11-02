@@ -12,6 +12,10 @@ function Navbar() {
 		);
 	};
 
+  const toggleTramites = () => {
+  setIsTramitesOpen(!isTramitesOpen);
+};
+
 
   const [showAboutMe, setShowAboutMe] = useState(false);
   const [showMatriculacion, setShowMatriculacion] = useState(false);
@@ -22,6 +26,14 @@ function Navbar() {
   };
 
   const toggleMatriculacion = () => {
+  setIsMatriculacionOpen(!isMatriculacionOpen);
+};
+
+const toggleHabilitacion = () => {
+  setIsHabilitacionOpen(!isHabilitacionOpen);
+};
+
+  {/*const toggleMatriculacion = () => {
     setShowMatriculacion(!showMatriculacion);
     setShowHabilitacion(false);
   };
@@ -29,7 +41,7 @@ function Navbar() {
   const toggleHabilitacion = () => {
     setShowHabilitacion(!showHabilitacion);
     setShowMatriculacion(false);
-  };
+  };*/}
 
 
 const instructivoMatriculacionClick = () => {
@@ -58,6 +70,12 @@ const instructivoMatriculacionClick = () => {
     }
   };
 
+  const [isTramitesOpen, setIsTramitesOpen] = useState(false);
+  const [isMatriculacionOpen, setIsMatriculacionOpen] = useState(false);
+  const [isHabilitacionOpen, setIsHabilitacionOpen] = useState(false);
+
+
+
 	 return (
 		<header>
 			<h3>Colegio de Fonoaudiólogos Misiones</h3>
@@ -66,7 +84,33 @@ const instructivoMatriculacionClick = () => {
         <a  onClick={() => smoothScrollTo('institucional')}>Institucional</a>
         <a onClick={() => smoothScrollTo('profesionales')}>Profesionales</a>
 		<a onClick={() => smoothScrollTo('contacto')}>Contacto</a>
-        <a onClick={toggleAboutMe}>Trámites</a>
+
+    <a className='aTramites' onClick={toggleTramites}>Trámites</a>
+
+				<ul class="menu-vertical">
+					 <ul class="menu-vertical">
+  {isTramitesOpen && (
+    <ul>
+      <li onClick={toggleMatriculacion} className="li-titulo">•Matriculación</li>
+      {isMatriculacionOpen && (
+        <ul>
+          <li onClick={instructivoMatriculacionClick}>Instructivo</li>
+          <li onClick={formularioMatriculacionClick}>Formulario</li>
+        </ul>
+      )}
+      <li onClick={toggleHabilitacion} className="li-titulo">•Habilitación</li>
+      {isHabilitacionOpen && (
+        <ul>
+          <li onClick={reglamentoHabilitacionClick}>Reglamento</li>
+          <li onClick={solicitudHabilitacionClick}>Solicitud</li>
+        </ul>
+      )}
+    </ul>
+  )}
+</ul>
+
+              </ul>	
+        {/*<a onClick={toggleAboutMe}>Trámites</a>
         {showAboutMe && (
           <ul>
             <li className="custom-list" onClick={toggleMatriculacion}>
@@ -87,13 +131,14 @@ const instructivoMatriculacionClick = () => {
               )}
             </li>
           </ul>
-        )}
+              )}*/}
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
 			</nav>
+      
 			<button
 				className="nav-btn"
 				onClick={showNavbar}>
@@ -104,3 +149,4 @@ const instructivoMatriculacionClick = () => {
 }
 
 export default Navbar;
+

@@ -27,6 +27,9 @@ header {
     width: 100%;
     
 }
+.custom-list{
+	margin-top: 50px;
+}
 
 nav a {
 	margin: 0 1rem;
@@ -50,6 +53,45 @@ header .nav-btn {
 	opacity: 0;
 	font-size: 1.8rem;
 }
+
+
+.menu-vertical {
+	
+	position: absolute;
+	background-color: var(--mainColor);
+    color: white;
+	margin-top: 10px;
+	margin-left: 260px;
+}
+
+.menu-vertical ul{
+	list-style-type: none;
+	font-size: 15px;
+}
+
+ .menu-vertical .li-titulo {
+	color: var(--secondaryColor)
+}
+
+.menu-vertical li:hover{
+ color: var(--secondaryColor);
+cursor: pointer;
+
+  
+}
+
+.menu-vertical li {
+	display: block;
+	color: white;
+	text-decoration: none;
+  margin-bottom: 10px;
+
+}
+
+.menu-vertical-responsive{
+  display: none;
+}
+
 
 header div,
 nav {
@@ -96,12 +138,12 @@ nav {
 		text-decoration: none;
 	}
 
-    .custom-list{
-        font-size: 1.2rem;
-    }
-    .custom-list a{
-        font-size: 1.2rem;
-    }
+    .menu-vertical{
+		margin-top:0px;
+		position: relative;
+		margin-left: 2px;
+		
+	}
 }
 
 .custom-list {
