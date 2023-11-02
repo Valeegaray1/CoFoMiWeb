@@ -64,6 +64,7 @@ border: none;
 border-radius: 25px;
 background: #9F1880;
 transition: transform 0.1ms ease;
+padding: 10px;
 }
 
 .profesionales-container button:hover{
@@ -81,16 +82,16 @@ transition: transform 0.1ms ease;
 @media (max-width: 767px) {
   .profesionales-container {
     height: auto; /* Ajusta la altura automáticamente según el contenido */
-    
     padding: 20px; /* Agrega un relleno para separar el contenido del borde */
   }
 
   .overlay {
     background-color: rgba(5, 165, 178, 0.85); /* Ajusta la transparencia para dispositivos móviles */
   }
-
+  
   .titulo {
-    font-size: 25px; /* Ajusta el tamaño de la fuente del título */
+    font-size: 25px; 
+   padding-top: 70px;
   }
 
   .profesionales-container button {

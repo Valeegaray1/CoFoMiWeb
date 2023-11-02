@@ -147,7 +147,7 @@
     background-color: #9F1880;
     border-radius: 17px;
     margin: 15px;
-    height: 250px;
+    height: 300px;
   }
 
   .ul-responvice, .li-responsive{
@@ -161,17 +161,19 @@
     background-color:  #05A5B2;
     border-radius: 17px;
     border: none;
-    width: 110px;
+    width: 130px;
     color: white;
     margin: 5px;
+    padding: 10px;
   }
   .email-button-responsive{
     background-color:  #05A5B2;
     border-radius: 17px;
     border: none;
-    width: 110px;
+    width: 130px;
     color: white;
     margin: 5px;
     margin-top: 40px;
+    padding: 10px;
   }
 }

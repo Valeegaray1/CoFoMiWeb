@@ -21,6 +21,7 @@
   
   .inicio-title {
     position: absolute;
+    margin-top: 25px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

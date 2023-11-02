@@ -92,11 +92,18 @@
     
   }
  .btn-sugeridos h2{
-  height: 30px;
+  height: 40px;
   width: 170px;
   font-size: 13px;
-  padding-top: 0;
+  padding: 0px;
  }
+
+ .btn-sugeridos{
+  margin-top: 25px;
+  
+ }
+
+
 
   .title{
     
