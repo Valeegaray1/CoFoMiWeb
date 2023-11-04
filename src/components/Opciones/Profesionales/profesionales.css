@@ -91,15 +91,22 @@ padding: 10px;
   
   .titulo {
     font-size: 25px; 
-   padding-top: 70px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+  }
+
+  .pProfesionales {
+    display: none;
   }
 
   .profesionales-container button {
     width: 100%; /* Ancho completo en dispositivos móviles */
     max-width: 300px; /* Ancho máximo para que no se estire demasiado en pantallas grandes */
-  }
+    margin-bottom: 10px; }
 
   .btn-texto {
-    font-size: 16px; /* Ajusta el tamaño de la fuente del texto del botón */
+    font-size: 16px; 
+    
   }
 }

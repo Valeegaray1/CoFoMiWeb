@@ -11,7 +11,7 @@ const Profesionales = () => {
       <div className="overlay"></div> {/* Capa de color transparente */}
       <div className="content">
         <h2 className='titulo'>Profesionales</h2>
-       <div><p></p></div>
+       <div><p className='pProfesionales'></p></div>
         <button onClick={handleBuscarProfesionales} className='btn-texto'>Accede al listado de profesionales</button>
       </div>
     </div>

@@ -4,7 +4,7 @@ const comisiones = [
   {
     title: 'Comisión Directiva',
     descripcion: 'Asegurar la excelencia en la práctica de la fonoaudiología, así como garantizar la prestación de servicios de alta calidad a la sociedad.',
-    presidente: { nombre: 'Analia Pereira', cargo: 'Presidente' },
+    presidente: { nombre: 'Analia Pereyra', cargo: 'Presidente' },
    personas: [
                { nombre: 'Ana Laura Brown', cargo: 'Vicepresidente' },
                { nombre: 'Silvia Cesari', cargo: 'Secretaria' },
@@ -13,7 +13,7 @@ const comisiones = [
 
     
     vocalTitular: [
-      { nombre: 'Alicia Orfilia', cargo: 'Vocal titular 1°' },
+      { nombre: 'Alicia Orfila', cargo: 'Vocal titular 1°' },
       { nombre: 'Alicia Amarilla', cargo: 'Vocal titular 2°' },
     ],
     vocalSuplente: [
@@ -29,7 +29,7 @@ const comisiones2 = [
     descripcion2: 'Garantizar la transparencia en el manejo de los recursos económicos del colegio, como así también velar por el cumplimiento de las normativas y políticas financieras establecidas.',
     titular2: [
       { nombre: 'María Laura Asencio', cargo: 'Titular' },
-      { nombre: 'Natalia Ratoff', cargo: 'Titular' },
+      { nombre: 'Natalia Rathhof', cargo: 'Titular' },
       { nombre: 'Gisela Medina', cargo: 'Titular' },
     ],
     suplente2: [
