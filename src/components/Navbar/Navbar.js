@@ -16,6 +16,10 @@ function Navbar() {
   setIsTramitesOpen(!isTramitesOpen);
 };
 
+const closeTramites = () => {
+  setIsTramitesOpen(false);
+};
+
 
   const [showAboutMe, setShowAboutMe] = useState(false);
   const [showMatriculacion, setShowMatriculacion] = useState(false);
@@ -33,16 +37,7 @@ const toggleHabilitacion = () => {
   setIsHabilitacionOpen(!isHabilitacionOpen);
 };
 
-  {/*const toggleMatriculacion = () => {
-    setShowMatriculacion(!showMatriculacion);
-    setShowHabilitacion(false);
-  };
-
-  const toggleHabilitacion = () => {
-    setShowHabilitacion(!showHabilitacion);
-    setShowMatriculacion(false);
-  };*/}
-
+ 
 
 const instructivoMatriculacionClick = () => {
     window.open('https://drive.google.com/file/d/1V7PhNTs0m9TSpxa4eFEyH9q_ETs49d-p/view?usp=sharing', '_blank');
@@ -80,10 +75,10 @@ const instructivoMatriculacionClick = () => {
 		<header>
 			<h3>Colegio de Fonoaudiólogos Misiones</h3>
 			<nav ref={navRef}>
-				<a onClick={() => smoothScrollTo('inicio')}>Inicio</a>
-        <a  onClick={() => smoothScrollTo('institucional')}>Institucional</a>
-        <a onClick={() => smoothScrollTo('profesionales')}>Profesionales</a>
-		<a onClick={() => smoothScrollTo('contacto')}>Contacto</a>
+				<a onClick={() => smoothScrollTo('inicio')} onMouseDown={closeTramites}>Inicio</a>
+        <a  onClick={() => smoothScrollTo('institucional')} onMouseDown={closeTramites}>Institucional</a>
+        <a onClick={() => smoothScrollTo('profesionales')} onMouseDown={closeTramites}>Profesionales</a>
+		<a onClick={() => smoothScrollTo('contacto')} onMouseDown={closeTramites}>Contacto</a>
 
     <a className='aTramites' onClick={toggleTramites}>Trámites</a>
 
@@ -110,28 +105,7 @@ const instructivoMatriculacionClick = () => {
 </ul>
 
               </ul>	
-        {/*<a onClick={toggleAboutMe}>Trámites</a>
-        {showAboutMe && (
-          <ul>
-            <li className="custom-list" onClick={toggleMatriculacion}>
-              Matriculación  {showMatriculacion && (
-                <ul className="custom-list">
-                  <li ><a onClick={instructivoMatriculacionClick}>Instructivo</a></li>
-                  <li ><a onClick={formularioMatriculacionClick}>Formulario</a></li>
-                </ul>
-              )}
-            </li>
-            <li className="custom-list" onClick={toggleHabilitacion}>
-              Habilitación
-              {showHabilitacion && (
-                <ul className="custom-list">
-                  <li ><a onClick={reglamentoHabilitacionClick}>Reglamento</a></li>
-                  <li><a onClick={solicitudHabilitacionClick}>Solicitud</a></li>
-                </ul>
-              )}
-            </li>
-          </ul>
-              )}*/}
+       
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
