@@ -7,7 +7,7 @@ const comisiones = [
     presidente: { nombre: 'Analia Pereyra', cargo: 'Presidente' },
    personas: [
                { nombre: 'Ana Laura Brown', cargo: 'Vicepresidente' },
-               { nombre: 'Silvia Cesari', cargo: 'Secretaria' },
+               { nombre: 'Silvia Casari', cargo: 'Secretaria' },
                { nombre: 'Vanesa Manzi', cargo: 'Tesorera' },
    ],
 

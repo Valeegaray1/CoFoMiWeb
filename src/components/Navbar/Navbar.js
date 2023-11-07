@@ -48,7 +48,7 @@ const instructivoMatriculacionClick = () => {
   };
 
   const solicitudHabilitacionClick = () => {
-    window.open('https://drive.google.com/file/d/1ABOHs_Zrg2Y25VIP2cR0LBECpkN2IIuf/view?usp=sharing', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeOaSs8_d45yoURVCDY7sDYfW5ZEsEO77BsrWX6RLMwc1u4Ew/viewform', '_blank');
   };
 
   const formularioMatriculacionClick = () => {

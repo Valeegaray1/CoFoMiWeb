@@ -13,9 +13,9 @@ const Aranceles = () => {
   <section class="layout">
     
   <div class="consultaVirtual"><h2>Consulta fonoaudiológica en consultorio/virtual</h2></div>
-  <div class="consultaVirtual"><h2>$4500 - 40 a 60 minutos, individual</h2></div>
+  <div class="consultaVirtual"><h2>$6000 - 40 a 60 minutos, individual</h2></div>
   <div class="consultaPresencial"><h2>Consulta fonoaudiológica a domicilio</h2></div>
-  <div class="consultaVirtual"><h2>$5000 - 40 a 60 minutos, individual</h2></div>
+  <div class="consultaVirtual"><h2>$8000 - 40 a 60 minutos, individual</h2></div>
 </section>
 <button onClick={openArancelespdf} className='btn-sugeridos'><h2>Ver valores sugeridos de otras prácticas</h2></button>
 </div>
