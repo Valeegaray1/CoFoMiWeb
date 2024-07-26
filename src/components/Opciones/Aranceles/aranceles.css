@@ -48,16 +48,18 @@
 
 }
 
+.div-btn{
+  background-color: #05A5B2;
+}
+
 .btn-sugeridos{
 
   border: none; 
   background: #05A5B2;
   color: white;
   font-family: Raleway, sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   cursor: pointer;
-  border-radius: 25px;
-  margin: 10px;
   transition: transform 1s;
 
 }
@@ -68,8 +70,8 @@
   font-size: 20px;
 }
 
-.btn-sugeridos:hover{
-  background-color: #9F1880;
+.h2hover:hover{
+color: #9F1880;
 }
 
 

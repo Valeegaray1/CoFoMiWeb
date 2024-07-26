@@ -1,5 +1,5 @@
 import React from 'react';
-import './aranceles.css';  // Import the CSS file
+import './aranceles.css';  
 
  const openArancelespdf = () => {
   window.open('https://drive.google.com/file/d/1HaVPncWGRsFDpEwdTAleqwsdRv-zMEpq/view?usp=sharing', '_blank');
@@ -9,15 +9,9 @@ import './aranceles.css';  // Import the CSS file
 const Aranceles = () => {
   return (
     <div className='container'>
-      <div className='title'> <h1 className='valores'>Valores de consultas éticos sugeridos</h1></div>
-  <section class="layout">
-    
-  <div class="consultaVirtual"><h2>Consulta fonoaudiológica en consultorio/virtual</h2></div>
-  <div class="consultaVirtual"><h2>$6000 - 40 a 60 minutos, individual</h2></div>
-  <div class="consultaPresencial"><h2>Consulta fonoaudiológica a domicilio</h2></div>
-  <div class="consultaVirtual"><h2>$8000 - 40 a 60 minutos, individual</h2></div>
-</section>
-<button onClick={openArancelespdf} className='btn-sugeridos'><h2>Ver valores sugeridos de otras prácticas</h2></button>
+      <div className='title'> <h1 className='valores'>Aranceles mínimos éticos sugeridos</h1></div>
+ 
+<div className='div-btn'><button onClick={openArancelespdf} className='btn-sugeridos'><h2 className='h2hover'>Ver grilla de prácticas y aranceles</h2></button></div>
 </div>
   );
 
